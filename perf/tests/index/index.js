@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=JSON.parse('["react-animator","react-animated"]'),t=document.querySelector("#perf-tests-list");t&&(t.innerHTML=e.map((e=>`<li><a href="/perf/tests/${e}">${e}</a></li>`)).join(""))})();
